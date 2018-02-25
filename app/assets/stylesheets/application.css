@@ -19,29 +19,36 @@
   padding: 0;
 }
 
+body {
+  background-image: url("BG.jpg");
+  background-size: cover;
+}
+
 p {
   font-family: 'News Cycle', sans-serif;
 }
 
 .sidebar {
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
-#title>h1 {
+h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 5em;
+  margin-top: -10px;
 }
 
-#title>h2 {
+h2 {
   font-family: 'Pompiere', cursive;
   font-size: 4em;
 }
 
-#title>h3 {
+h3 {
   font-family: 'Karma', serif;
   font-size: 2em;
   color: #727272;
@@ -57,7 +64,6 @@ p {
   text-transform: uppercase;
   font-size: 1.3em;
   text-align: left;
-  z-index: -1;
 }
 
 .rotate {
@@ -87,6 +93,10 @@ p {
   z-index: 10;
 }
 
+a:hover {
+  background: none;
+}
+
 #about p {
   text-align: left;
   font-family: 'Karma', serif;
@@ -108,7 +118,7 @@ p {
   font-family: 'Raleway', sans-serif;
   color: inherit;
   text-decoration: none;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 10px 20px 10px;
   transition: .5s ease;
 }
 

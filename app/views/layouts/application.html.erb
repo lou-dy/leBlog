@@ -14,49 +14,49 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-5 sidebar">
-          <div id="title">
-            <h2>The Misadventures of</h2>
-            <h1>Louise Dy Quiangco</h1>
-            <h3>/ləˈwiːz dēkyäŋkô/</h3>
-          </div>
+      <div class="col-md-5 sidebar">
+        <div id="title">
+          <h2>The Misadventures of</h2>
+          <h1>Louise Dy Quiangco</h1>
+          <h3>/ləˈwiːz dēkyäŋkô/</h3>
+         </div> <!--end title -->
 
-          <div id="nav">
-            <ul class="side_nav">
-              <li><a href="#" target=_blank data-toggle="tooltip" data-placement="top" title="You are here">Blog</a></li>
-              <li><a href="http://ldqportfolio.bitballoon.com" target=_blank data-toggle="tooltip" data-placement="top" title="Go to Site">Portfolio</a></li>
-              <li><a href="https://catcom.herokuapp.com" target=_blank data-toggle="tooltip" data-placement="top" title="Go to Site">Shop</a></li>
-              <li><a href="" data-toggle="tooltip" data-placement="top" title="empty">Archive</a></li>
-            </ul>
-          </div>
+        <div id="nav">
+          <ul class="side_nav">
+            <li><a href="#" target=_blank data-toggle="tooltip" data-placement="top" title="You are here">Blog</a></li>
+            <li><a href="http://ldqportfolio.bitballoon.com" target=_blank data-toggle="tooltip" data-placement="top" title="Go to Site">Portfolio</a></li>
+            <li><a href="https://catcom.herokuapp.com" target=_blank data-toggle="tooltip" data-placement="top" title="Go to Site">Shop</a></li>
+            <li><a href="" data-toggle="tooltip" data-placement="top" title="empty">Archive</a></li>
+          </ul>
+        </div> <!--end side_nav -->
 
-          <div id="about">
+        <div id="about">
 
-            <h3 class="rotate">About</h3>
+          <h3 class="rotate">About</h3>
 
-            <div class="col-sm-12 col-md-6 col-xs-12 about-photos">
-              <a href="" data-toggle="tooltip" data-placement="top" title="This me"><img src="http://78.media.tumblr.com/avatar_1930369511a5_64.pnj" alt="portrait"></a>
-              <a href="" data-toggle="tooltip" data-placement="top" title="This my cades"><img src="https://www.yourtango.com/sites/default/files/styles/body_image_default/public/large%20%282%29.jpg" alt="cats"></a>
-              <a href="" data-toggle="tooltip" data-placement="top" title="This my spiky floof"><img src="https://pbs.twimg.com/profile_images/653874130798776320/fnsMjRjP_400x400.jpg" alt="hedgehog"></a>
-            </div>
+          <div class="col-sm-12 col-md-6 col-xs-12 about-photos">
+            <a href="" data-toggle="tooltip" data-placement="top" title="This me"><img src="http://78.media.tumblr.com/avatar_1930369511a5_64.pnj" alt="portrait"></a>
+            <a href="" data-toggle="tooltip" data-placement="top" title="This my cades"><img src="https://www.yourtango.com/sites/default/files/styles/body_image_default/public/large%20%282%29.jpg" alt="cats"></a>
+            <a href="" data-toggle="tooltip" data-placement="top" title="This my spiky floof"><img src="https://pbs.twimg.com/profile_images/653874130798776320/fnsMjRjP_400x400.jpg" alt="hedgehog"></a>
+          </div> <!--end about-photos -->
 
-            <div class="col-md-4 col-sm-12 hidden-xs about-text">
-              <p>
-                I'm older than I look<br>
-                act younger than my age<br>
-                am smarter than I seem<br>
-                the rest is on this page
-              </p>
-            </div>
+          <div class="col-md-4 col-sm-12 hidden-xs about-text">
+            <p>
+              I'm older than I look<br>
+              act younger than my age<br>
+              am smarter than I seem<br>
+              the rest is on this page
+            </p>
+          </div> <!--end about-text -->
 
-          </div>
-        </div>
-        <div class="col-md-7">
-          <%= yield %>
-        </div>
+        </div> <!--end about -->
+      </div> <!--end sidebar -->
+
+      <div class="col-md-7">
+        <%= yield %>
       </div>
-    </div>
+
+    </div> <!--end container -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
