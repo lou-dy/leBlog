@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<% @entries.each do |entry| %>
+<% @entries.reverse.each do |entry| %>
   <div class="col-md-10 entry">
     <h2><%= entry.title %></h2>
     <h3><%= entry.date %></h3>
@@ -11,4 +11,6 @@
 
 <br>
 
-<%= link_to 'New Entry', new_entry_path %>
+<%= link_to new_entry_path, class: "btn btn-default" do%>
+  <i class="glyphicon glyphicon-plus"></i>
+<% end %>
