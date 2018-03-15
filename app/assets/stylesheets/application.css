@@ -31,12 +31,17 @@ p {
 }
 
 .sidebar {
-  position: fixed;
   text-align: center;
   width: auto;
   margin-top: 1em;
   padding: 0 20px 0 20px;
   /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+  }
 }
 
 #title {
